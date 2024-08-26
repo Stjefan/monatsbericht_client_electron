@@ -1,10 +1,10 @@
 {
   "name": "monatsbericht_client_electron",
-  "version": "1.0.2",
-  "description": "An Electron application with React and TypeScript",
+  "version": "1.0.9",
+  "description": "UI zum Erstellen von Monatsberichten",
   "main": "./out/main/index.js",
-  "author": "example.com",
-  "homepage": "https://electron-vite.org",
+  "author": "KuFi",
+  "homepage": "https://www.kurz-fischer.de",
   "scripts": {
     "format": "prettier --write .",
     "lint": "eslint . --ext .js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix",
@@ -18,7 +18,8 @@
     "build:unpack": "npm run build && electron-builder --dir",
     "build:win": "npm run build && electron-builder --win",
     "build:mac": "electron-vite build && electron-builder --mac",
-    "build:linux": "electron-vite build && electron-builder --linux"
+    "build:linux": "electron-vite build && electron-builder --linux",
+    "publish": "npm run build && electron-builder --win && electron-builder --publish always"
   },
   "dependencies": {
     "@electron-toolkit/preload": "^3.0.1",

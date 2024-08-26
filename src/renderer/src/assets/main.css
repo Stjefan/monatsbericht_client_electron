@@ -5,7 +5,7 @@ body {
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  background-image: url('./wavy-lines.svg');
+  /* background-image: url('./wavy-lines.svg'); */
   background-size: cover;
   user-select: none;
 }
@@ -103,25 +103,25 @@ code {
 
 .action a {
   cursor: pointer;
-  text-decoration: none;
-  display: inline-block;
-  border: 1px solid transparent;
+  /* text-decoration: none;
+  /* display: inline-block; */
+  border: 1px solid;
   text-align: center;
-  font-weight: 600;
+  /* font-weight: 600;
   white-space: nowrap;
   border-radius: 20px;
   padding: 0 20px;
-  line-height: 38px;
-  font-size: 14px;
+  line-height: 38px; */
+  /* font-size: 14px; */
   border-color: var(--ev-button-alt-border);
-  color: var(--ev-button-alt-text);
-  background-color: var(--ev-button-alt-bg);
+  /* color: var(--ev-button-alt-text);
+  background-color: var(--ev-button-alt-bg); */
 }
 
 .action a:hover {
-  border-color: var(--ev-button-alt-hover-border);
+  /* border-color: var(--ev-button-alt-hover-border);
   color: var(--ev-button-alt-hover-text);
-  background-color: var(--ev-button-alt-hover-bg);
+  background-color: var(--ev-button-alt-hover-bg); */
 }
 
 .versions {

@@ -1,5 +1,5 @@
-appId: com.electron.app
-productName: monatsbericht_client_electron
+appId: com.monatsbericht_gui_electron.app
+productName: monatsbericht_gui_electron
 directories:
   buildResources: build
 files:
@@ -15,7 +15,7 @@ win:
   target:
     - target: nsis
       
-  executableName: monatsbericht_client_electron
+  executableName: monatsbericht_gui_electron
 nsis:
   artifactName: ${name}-${version}-setup.${ext}
   shortcutName: ${productName}
@@ -41,6 +41,3 @@ linux:
 appImage:
   artifactName: ${name}-${version}.${ext}
 npmRebuild: false
-publish:
-  provider: generic
-  url: https://example.com/auto-updates
